@@ -48,7 +48,7 @@ $screen-large: 1200px;
 //** Background color for `<body>`.
 $body-bg:                   var(--bodyBackground, $white);
 //** Global text color on `<body>`.
-$text-color:                var(--textColor, $pink);
+$text-color:                var(--textColor, $black);
 $text-color-inverse:        var(--textColorInverse, $gray-light);
 
 $brand-secondary:            var(--brandSecondary, $black);
@@ -56,7 +56,7 @@ $brand-secondary:            var(--brandSecondary, $black);
 $brand-third:                var(--brandThird, $gray-light);
 
 //** Global textual link color.
-$link-color:                 var(--linkColor, $pink);
+$link-color:                 var(--linkColor, $black);
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $link-color;
 //** Link hover decoration.
